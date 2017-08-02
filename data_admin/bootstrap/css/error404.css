@@ -1,0 +1,96 @@
+ /*styling #hex*/
+
+  /*custom font - Lato*/
+  @import url("https://fonts.googleapis.com/css?family=Lato:100");
+  /*basic reset*/
+  * {margin: 0; padding: 0;}
+  /*make the body occupy full height*/
+  html, body {height: 100%;}
+
+  #hex {
+    color: white; font: 64px/64px Lato; height: 64px;
+    /*Vertical centering*/
+    position: relative; top: 50%; margin-top: -32px;
+    /*Horizontal centering*/
+    text-align: center;
+  }
+  h3
+  {
+    margin-bottom: 20px;
+    color: white; font: 64px/64px Lato; height: 64px;
+    /*Vertical centering*/
+    position: relative; top: 43%; margin-top: -32px;
+    /*Horizontal centering*/
+    text-align: center;
+  }
+  #hotkeys
+  {
+    margin-top: 500px;
+    margin-right: 40px;
+    float: right;
+    border : none;
+    color : black;
+    background: transparent;
+    height :20px;
+    width : 40px;
+  }
+  @media only screen and (max-width: 900px) 
+  {
+    #hex
+    {
+      color: white; font: 54px/54px Lato; height: 64px;
+      /*Vertical centering*/
+      position: relative; top: 50%; margin-top: -32px;
+      /*Horizontal centering*/
+      text-align: center;
+    }
+    h3
+    {
+      margin-bottom: 20px;
+      color: white; font: 54px/54px Lato; height: 64px;
+      /*Vertical centering*/
+      position: relative; top: 43%; margin-top: -32px;
+      /*Horizontal centering*/
+      text-align: center;
+    }
+  }
+  @media only screen and (max-width: 400px) 
+  {
+    #hex
+    {
+      color: white; font: 34px/34px Lato; height: 64px;
+      /*Vertical centering*/
+      position: relative; top: 50%; margin-top: -32px;
+      /*Horizontal centering*/
+      text-align: center;
+    }
+    h3
+    {
+      margin-bottom: 20px;
+      color: white; font: 34px/34px Lato; height: 64px;
+      /*Vertical centering*/
+      position: relative; top: 43%; margin-top: -32px;
+      /*Horizontal centering*/
+      text-align: center;
+    }
+  }
+  @media only screen and (max-width: 300px) 
+  {
+    #hex
+    {
+      color: white; font: 24px/24px Lato; height: 64px;
+      /*Vertical centering*/
+      position: relative; top: 50%; margin-top: -32px;
+      /*Horizontal centering*/
+      text-align: center;
+    }
+    h3
+    {
+      margin-bottom: 20px;
+      color: white; font: 24px/24px Lato; height: 64px;
+      /*Vertical centering*/
+      position: relative; top: 43%; margin-top: -32px;
+      /*Horizontal centering*/
+      text-align: center;
+    }
+  }

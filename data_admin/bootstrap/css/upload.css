@@ -1,0 +1,29 @@
+.myUploadAva {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.btn-upload {
+  border: 2px solid red;
+  color: red;
+  background-color: white;
+  padding: 8px 10px;
+  border-radius: 2px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor:pointer;
+}
+
+.myUploadAva input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+#profilespin
+{
+  font-size: 24px;
+}
